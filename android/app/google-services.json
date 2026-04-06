@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "751411734893",
+    "project_id": "lami-art-studio-web",
+    "storage_bucket": "lami-art-studio-web.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751411734893:android:667c363f35dff4b254d264",
+        "android_client_info": {
+          "package_name": "com.example.lamiartstudio_website"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMb5TtCOZTA8vhOnJJP9rx2dWye2DECiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

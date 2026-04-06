@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "lami-art-studio-web",
+          "appId": "1:751411734893:android:667c363f35dff4b254d264",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "lami-art-studio-web",
+          "configurations": {
+            "android": "1:751411734893:android:667c363f35dff4b254d264",
+            "ios": "1:751411734893:ios:7fbaf0bf0df85f0b54d264",
+            "macos": "1:751411734893:ios:7fbaf0bf0df85f0b54d264",
+            "web": "1:751411734893:web:6171a5c7562d75bd54d264",
+            "windows": "1:751411734893:web:fd5d5466e4b071cb54d264"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
