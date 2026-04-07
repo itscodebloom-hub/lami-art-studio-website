@@ -67,6 +67,7 @@ flutter:
     - assets/images/page_bg.png
     - assets/images/signature.png
     - assets/images/home_image1.png
+    - assets/images/halima.png
 
   fonts:
   - family: Calligraphy
