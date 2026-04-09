@@ -49,6 +49,7 @@ class HomePageContent extends StatelessWidget {
                                               text: TextSpan(
                                                 style: const TextStyle(
                                                   fontSize: 18,
+                                                  fontFamily: 'LiberationSans',
                                                   color: Color.fromARGB(
                                                     255,
                                                     65,
@@ -273,6 +274,7 @@ class HomePageContent extends StatelessWidget {
                                             style: TextStyle(
                                               fontSize: 18,
                                               height: 1.6,
+                                              fontFamily: 'LiberationSans',
                                               color: Color.fromARGB(
                                                 255,
                                                 65,
@@ -363,6 +365,7 @@ class HomePageContent extends StatelessWidget {
                               "Subscribe to receive updates on new artworks, collections, and stories.",
                               textAlign: TextAlign.center,
                               style: TextStyle(
+                                fontFamily: 'LiberationSans',
                                 fontSize: 18,
                                 color: Color.fromARGB(255, 65, 4, 0),
                               ),
