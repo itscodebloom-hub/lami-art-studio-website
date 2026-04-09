@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
         preferredSize: const Size.fromHeight(80),
         child: AppBar(
           automaticallyImplyLeading: false,
-          backgroundColor: Colors.white,
+          backgroundColor: const Color(0xFF6B4F3A),
           flexibleSpace: Container(
             // decoration: const BoxDecoration(
             //   image: DecorationImage(
@@ -65,7 +65,8 @@ class HomePage extends StatelessWidget {
                           style: TextStyle(
                             fontFamily: 'Calligraphy',
                             fontSize: 42,
-                            color: Color.fromARGB(255, 195, 140, 0),
+                            color: Colors.white,
+                            //color: Color.fromARGB(255, 195, 140, 0),
                           ),
                         ),
                         // Center(
@@ -85,7 +86,8 @@ class HomePage extends StatelessWidget {
                           child: const Text(
                             'Home',
                             style: TextStyle(
-                              color: Color.fromARGB(255, 195, 140, 0),
+                              //color: Color.fromARGB(255, 195, 140, 0),
+                              color: Colors.white,
                               fontFamily: 'AppleGaramond',
                               fontSize: 22,
                             ),
@@ -97,7 +99,8 @@ class HomePage extends StatelessWidget {
                           child: const Text(
                             'Gallery',
                             style: TextStyle(
-                              color: Color.fromARGB(255, 195, 140, 0),
+                              //color: Color.fromARGB(255, 195, 140, 0),
+                              color: Colors.white,
                               fontFamily: 'AppleGaramond',
                               fontSize: 22,
                             ),
@@ -109,7 +112,8 @@ class HomePage extends StatelessWidget {
                           child: const Text(
                             'Contact Us',
                             style: TextStyle(
-                              color: Color.fromARGB(255, 195, 140, 0),
+                              //color: Color.fromARGB(255, 195, 140, 0),
+                              color: Colors.white,
                               fontFamily: 'AppleGaramond',
                               fontSize: 22,
                             ),

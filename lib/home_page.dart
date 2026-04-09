@@ -142,11 +142,11 @@ class HomePageContent extends StatelessWidget {
                                       flex: 4,
                                       child: Padding(
                                         padding: const EdgeInsets.only(
-                                          top: 10,
+                                          top: 0,
                                         ), // 🔥 better alignment
                                         child: Container(
                                           constraints: const BoxConstraints(
-                                            maxHeight: 550,
+                                            maxHeight: 750,
                                           ),
                                           child: Image.asset(
                                             'assets/images/home_image1.png',
