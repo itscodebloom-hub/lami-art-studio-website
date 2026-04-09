@@ -33,13 +33,14 @@ class HomePage extends StatelessWidget {
         preferredSize: const Size.fromHeight(80),
         child: AppBar(
           automaticallyImplyLeading: false,
+          backgroundColor: Colors.white,
           flexibleSpace: Container(
-            decoration: const BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage('assets/images/lamiart_bg.png'),
-                fit: BoxFit.cover,
-              ),
-            ),
+            // decoration: const BoxDecoration(
+            //   image: DecorationImage(
+            //     image: AssetImage('assets/images/lamiart_bg.png'),
+            //     fit: BoxFit.cover,
+            //   ),
+            // ),
             child: Center(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -54,16 +55,25 @@ class HomePage extends StatelessWidget {
                         Center(
                           child: Image.asset(
                             'assets/images/lamiart_logo.png',
-                            height: 50,
+                            height: 80,
                           ),
                         ),
-                        const SizedBox(width: 10),
-                        Center(
-                          child: Image.asset(
-                            'assets/images/lamiart_name.png',
-                            height: 40,
+                        const SizedBox(width: 20),
+
+                        const Text(
+                          "Lami Art  Studio",
+                          style: TextStyle(
+                            fontFamily: 'Calligraphy',
+                            fontSize: 42,
+                            color: Color.fromARGB(255, 195, 140, 0),
                           ),
                         ),
+                        // Center(
+                        //   child: Image.asset(
+                        //     'assets/images/lamiart_name.png',
+                        //     height: 40,
+                        //   ),
+                        // ),
                       ],
                     ),
                     // Right side: navigation menu
@@ -75,8 +85,9 @@ class HomePage extends StatelessWidget {
                           child: const Text(
                             'Home',
                             style: TextStyle(
-                              color: Colors.yellow,
-                              fontSize: 18,
+                              color: Color.fromARGB(255, 195, 140, 0),
+                              fontFamily: 'AppleGaramond',
+                              fontSize: 22,
                             ),
                           ),
                         ),
@@ -86,8 +97,9 @@ class HomePage extends StatelessWidget {
                           child: const Text(
                             'Gallery',
                             style: TextStyle(
-                              color: Colors.yellow,
-                              fontSize: 18,
+                              color: Color.fromARGB(255, 195, 140, 0),
+                              fontFamily: 'AppleGaramond',
+                              fontSize: 22,
                             ),
                           ),
                         ),
@@ -97,11 +109,13 @@ class HomePage extends StatelessWidget {
                           child: const Text(
                             'Contact Us',
                             style: TextStyle(
-                              color: Colors.yellow,
-                              fontSize: 18,
+                              color: Color.fromARGB(255, 195, 140, 0),
+                              fontFamily: 'AppleGaramond',
+                              fontSize: 22,
                             ),
                           ),
                         ),
+                        const SizedBox(width: 30),
                       ],
                     ),
                   ],
@@ -109,7 +123,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          backgroundColor: Colors.transparent,
+          //backgroundColor: Colors.transparent,
           elevation: 0,
         ),
       ),

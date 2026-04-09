@@ -73,6 +73,15 @@ flutter:
   - family: Calligraphy
     fonts:
       - asset: fonts/calligraphy.ttf
+  - family: AppleGaramond
+    fonts:
+      - asset: fonts/applegaramond.ttf
+  - family: CreatoDisplay
+    fonts:
+      - asset: fonts/creatodisplay.otf
+  - family: LiberationSans
+    fonts:
+      - asset: fonts/liberationsans.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
