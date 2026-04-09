@@ -520,7 +520,7 @@ class HomePageContent extends StatelessWidget {
                 Container(
                   width: double.infinity,
                   color: const Color(0xFF6B4F3A),
-                  padding: const EdgeInsets.symmetric(vertical: 50),
+                  padding: const EdgeInsets.symmetric(vertical: 30),
                   child: Center(
                     child: ConstrainedBox(
                       constraints: const BoxConstraints(
