@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'home_page.dart'; // 👈 adjust path if needed
 import 'gallery_page.dart';
+import 'main_layout.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,8 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/home',
       routes: {
-        '/home': (context) => const HomePageContent(),
-        '/gallery': (context) => const GalleryPage(),
+        '/home': (context) => MainLayout(child: HomePage()),
+        '/gallery': (context) => MainLayout(child: GalleryPage()),
+        //'/contact': (context) => MainLayout(child: ContactPage()),
       },
     );
   }

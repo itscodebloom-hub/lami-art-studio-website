@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'main_layout.dart';
 
-class HomePageContent extends StatelessWidget {
-  const HomePageContent({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MainLayout(
+    return SingleChildScrollView(
       child: Container(
         color: Colors.white,
         child: SingleChildScrollView(

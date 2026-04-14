@@ -35,19 +35,21 @@ class MainLayout extends StatelessWidget {
         actions: [
           TextButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/home');
+              Navigator.pushReplacementNamed(context, '/home');
             },
             child: const Text("Home", style: TextStyle(color: Colors.white)),
           ),
+
           TextButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/gallery');
+              Navigator.pushReplacementNamed(context, '/gallery');
             },
             child: const Text("Gallery", style: TextStyle(color: Colors.white)),
           ),
+
           TextButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/contact');
+              Navigator.pushReplacementNamed(context, '/contact');
             },
             child: const Text("Contact", style: TextStyle(color: Colors.white)),
           ),
