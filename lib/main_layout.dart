@@ -8,6 +8,7 @@ class MainLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       // 🔵 SHARED APPBAR (VISIBLE ON ALL PAGES)
       appBar: AppBar(
         toolbarHeight: 80,
