@@ -150,25 +150,31 @@ class GalleryPage extends StatelessWidget {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(16),
-        child: MasonryGridView.count(
-          crossAxisCount: 3,
-          mainAxisSpacing: 12,
-          crossAxisSpacing: 12,
-          itemCount: artworks.length,
-          itemBuilder: (context, index) {
-            final art = artworks[index];
+        child: RepaintBoundary(
+          child: MasonryGridView.builder(
+            gridDelegate: const SliverSimpleGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 3,
+            ),
+            mainAxisSpacing: 12,
+            crossAxisSpacing: 12,
+            itemCount: artworks.length,
+            itemBuilder: (context, index) {
+              final art = artworks[index];
 
-            return GestureDetector(
-              onTap: () => _showArtDialog(context, art),
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(12),
-                child: Image.asset(art.image, fit: BoxFit.cover)
-                    .animate(delay: (index * 100).ms)
-                    .fade(duration: 500.ms)
-                    .slideY(begin: 0.2),
-              ),
-            );
-          },
+              return GestureDetector(
+                onTap: () => _showArtDialog(context, art),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(12),
+                  child: Image.asset(
+                    art.image,
+                    fit: BoxFit.cover,
+                    cacheWidth: 600,
+                    filterQuality: FilterQuality.medium,
+                  ),
+                ),
+              );
+            },
+          ),
         ),
       ),
     );
