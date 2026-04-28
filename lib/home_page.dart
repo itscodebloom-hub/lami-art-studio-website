@@ -286,7 +286,7 @@ class HomePage extends StatelessWidget {
                                               style: TextStyle(
                                                 fontSize: 18,
                                                 height: 1.6,
-                                                fontFamily: 'LiberationSans',
+                                                fontFamily: 'AppleGaramond',
                                                 color: Color.fromARGB(
                                                   255,
                                                   65,
@@ -378,7 +378,7 @@ class HomePage extends StatelessWidget {
                                 "Subscribe to receive updates on new artworks, collections, and stories.",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                  fontFamily: 'LiberationSans',
+                                  fontFamily: 'AppleGaramond',
                                   fontSize: 18,
                                   color: Color.fromARGB(255, 65, 4, 0),
                                 ),

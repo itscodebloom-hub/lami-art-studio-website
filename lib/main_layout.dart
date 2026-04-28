@@ -174,7 +174,7 @@ Widget _navItem(String title, String route, BuildContext context) {
       style: const TextStyle(
         color: Colors.white,
         fontSize: 16,
-        fontFamily: 'LiberationSans',
+        fontFamily: 'AppleGaramond',
         letterSpacing: 0.5,
       ),
     ),
@@ -188,7 +188,7 @@ Widget _drawerItem(String title, String route, BuildContext context) {
   return ListTile(
     title: Text(
       title,
-      style: const TextStyle(fontFamily: 'LiberationSans', fontSize: 16),
+      style: const TextStyle(fontFamily: 'AppleGaramond', fontSize: 16),
     ),
     onTap: () {
       Navigator.pop(context);
