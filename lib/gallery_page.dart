@@ -118,14 +118,14 @@ class GalleryPage extends StatelessWidget {
       available: false,
       link: "/contact",
     ),
-    Artwork(
-      image: "assets/images/img14.jpg",
-      title: "Moroccan 8 pointed stars",
-      description:
-          "8 point rosette painted with handmade paints on handmade paper",
-      available: true,
-      link: "https://square.link/art1",
-    ),
+    // Artwork(
+    //   image: "assets/images/img14.jpg",
+    //   title: "Moroccan 8 pointed stars",
+    //   description:
+    //       "8 point rosette painted with handmade paints on handmade paper",
+    //   available: true,
+    //   link: "https://square.link/art1",
+    // ),
     Artwork(
       image: "assets/images/img15.JPG",
       title: "Remember us",

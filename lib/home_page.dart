@@ -49,9 +49,8 @@ class HomePage extends StatelessWidget {
                                               RichText(
                                                 text: TextSpan(
                                                   style: const TextStyle(
-                                                    fontSize: 18,
-                                                    fontFamily:
-                                                        'LiberationSans',
+                                                    fontSize: 20,
+                                                    fontFamily: 'AppleGaramond',
                                                     color: Color.fromARGB(
                                                       255,
                                                       65,
@@ -105,6 +104,8 @@ class HomePage extends StatelessWidget {
                                                               TextAlign.center,
                                                           style: const TextStyle(
                                                             fontSize: 18,
+                                                            fontFamily:
+                                                                'AppleGaramond',
                                                             color:
                                                                 Color.fromARGB(
                                                                   255,
